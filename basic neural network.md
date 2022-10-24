@@ -29,3 +29,10 @@
 
 # Activation function
 
+### $a=tanh(z)=\frac{e^z-e^{-z}}{e^z+e^{-z}}$
+
+<img src="https://user-images.githubusercontent.com/52966164/197495284-195de2a4-190c-44cc-b55a-47452d2fc297.png" width=55% />
+
+### because it is around 0, have effect like centerization.
+
+### tanh is always better than sigmoid
