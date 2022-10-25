@@ -56,3 +56,14 @@
 
 ![image](https://user-images.githubusercontent.com/52966164/197718148-b1ecd201-da73-4a73-b2ad-1ededfb91959.png)
 
+# Gradient Descend in NN
+
+## derivatives of activation function
+
+### $d(a=\sigma(z))=a\cdot (1-a)$
+
+### $d(a=tanh(z))=1-a^2$
+
+### $d(a=ReLU(z))=\lgroup{a}{b}$
+
+
