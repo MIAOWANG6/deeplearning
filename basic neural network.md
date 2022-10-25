@@ -29,12 +29,16 @@
 
 # Activation function
 
-### $a=tanh(z)=\frac{e^z-e^{-z}}{e^z+e^{-z}}$
+## $a=tanh(z)=\frac{e^z-e^{-z}}{e^z+e^{-z}}$ （双曲正切函数）
 
-<img src="https://user-images.githubusercontent.com/52966164/197495284-195de2a4-190c-44cc-b55a-47452d2fc297.png" width=55% />
+<img src="https://user-images.githubusercontent.com/52966164/197495284-195de2a4-190c-44cc-b55a-47452d2fc297.png" width=40% />
 
 ### because it is around 0, have effect like centerization.
 
 ### tanh is always better than sigmoid, except for output layer, whose 0/1 results make it suitable for signoid
 
 ### However, a disadvantage exists for both tanh and sigmoid, the gradient ( $\frac{dL}{dz}$ ) become very small when z is large or small enough, the learning will be slow.
+
+## Relu (线性修正函数) $a=max(0,z)$
+<img src="https://user-images.githubusercontent.com/52966164/197711655-c6ab2435-7e79-49a9-979f-cc5aa07cd34a.png" width=40% />
+
