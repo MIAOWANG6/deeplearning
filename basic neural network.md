@@ -35,4 +35,6 @@
 
 ### because it is around 0, have effect like centerization.
 
-### tanh is always better than sigmoid
+### tanh is always better than sigmoid, except for output layer, whose 0/1 results make it suitable for signoid
+
+### However, a disadvantage exists for both tanh and sigmoid, the gradient become very small when z is large or small enough
