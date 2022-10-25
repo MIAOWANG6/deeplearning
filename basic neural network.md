@@ -46,6 +46,8 @@
 
 ### Its only disadvantage is gra=0 when z is negative, which promotes "leaky ReLU" to be appeared.
 
+### $a=max(0.001z,z)$
+
 ## Non-linear activation function
 
 ### Why we need an non-linear activation function to remap linear input $z^{[1]}=w^Tx+b$ and then $z^{[2]}$ to nonlinear space.
@@ -56,7 +58,7 @@
 
 ![image](https://user-images.githubusercontent.com/52966164/197718148-b1ecd201-da73-4a73-b2ad-1ededfb91959.png)
 
-# Gradient Descend in NN
+# Gradient Descent in NN
 
 ## derivatives of activation function
 
@@ -64,6 +66,8 @@
 
 ### $d(a=tanh(z))=1-a^2$
 
-### $d(a=ReLU(z))=\lgroup{a}{b}$
+### $d(a=ReLU(z))= 0 (if z <0); d(a=ReLU(z))= 1 (if z >0); d(a=ReLU(z))= undefined (if z =0);$ 
+
+## gradient descent 
 
 
