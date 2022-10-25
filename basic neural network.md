@@ -50,5 +50,9 @@
 
 ### Why we need an non-linear activation function to remap linear input $z^{[1]}=w^Tx+b$ and then $z^{[2]}$ to nonlinear space.
 
-### If not, the output will just be the linear combination of its input
+### If not, the output will just be the linear combination of its input. Like a k layers network with linear activation and a sigmoid output layer, is just as same as simple logistic regression
+
+### Importantly, ReLU is nonlinear activation in the level of different samples
+
+![image](https://user-images.githubusercontent.com/52966164/197718148-b1ecd201-da73-4a73-b2ad-1ededfb91959.png)
 
