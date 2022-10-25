@@ -41,6 +41,14 @@
 
 ## ReLU (线性修正函数) $a=max(0,z)$
 <img src="https://user-images.githubusercontent.com/52966164/197711655-c6ab2435-7e79-49a9-979f-cc5aa07cd34a.png" width=40% />
-### It is often used now when you can't figure out what is better.
+
+### It is often used now when you can't figure out what is better. Fast learning.
 
 ### Its only disadvantage is gra=0 when z is negative, which promotes "leaky ReLU" to be appeared.
+
+## Non-linear activation function
+
+### Why we need an non-linear activation function to remap linear input $z^{[1]}=w^Tx+b$ and then $z^{[2]}$ to nonlinear space.
+
+### If not, the output will just be the linear combination of its input
+
