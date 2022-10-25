@@ -39,6 +39,8 @@
 
 ### However, a disadvantage exists for both tanh and sigmoid, the gradient ( $\frac{dL}{dz}$ ) become very small when z is large or small enough, the learning will be slow.
 
-## Relu (线性修正函数) $a=max(0,z)$
+## ReLU (线性修正函数) $a=max(0,z)$
 <img src="https://user-images.githubusercontent.com/52966164/197711655-c6ab2435-7e79-49a9-979f-cc5aa07cd34a.png" width=40% />
+### It is often used now when you can't figure out what is better.
 
+### Its only disadvantage is gra=0 when z is negative, which promotes "leaky ReLU" to be appeared.
