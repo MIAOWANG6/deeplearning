@@ -37,4 +37,4 @@
 
 ### tanh is always better than sigmoid, except for output layer, whose 0/1 results make it suitable for signoid
 
-### However, a disadvantage exists for both tanh and sigmoid, the gradient become very small when z is large or small enough
+### However, a disadvantage exists for both tanh and sigmoid, the gradient ( $\frac{dL}{dz}$ ) become very small when z is large or small enough, the learning will be slow.
